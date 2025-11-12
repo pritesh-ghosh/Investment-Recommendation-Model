@@ -66,11 +66,12 @@ Bash
 
 pip install -r requirements.txt
 ```
-You also need to download a language model for spaCy. Run this command in your terminal:
+You also need to download a language model for spaCy and vader. Run this command in your terminal:
 ```
 Bash
 
 python -m spacy download en_core_web_sm
+python -m nltk.downloader vader_lexicon
 ```
 Step 3: Configuration
 Before running the model, you need to configure your inputs.
